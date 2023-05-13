@@ -2616,19 +2616,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/core@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "@react-navigation/core@npm:6.3.0"
+"@react-navigation/core@npm:^6.4.8":
+  version: 6.4.8
+  resolution: "@react-navigation/core@npm:6.4.8"
   dependencies:
-    "@react-navigation/routers": ^6.1.2
+    "@react-navigation/routers": ^6.1.8
     escape-string-regexp: ^4.0.0
     nanoid: ^3.1.23
-    query-string: ^7.0.0
+    query-string: ^7.1.3
     react-is: ^16.13.0
     use-latest-callback: ^0.1.5
   peerDependencies:
     react: "*"
-  checksum: cdfda8055b89ab1f3c0714779644d51e8cce31545fbfe16cd10f540f142c9093abd5d7b9199836aa283eb8c9305f9a9fcdcc7dcdbfa08d3100d9b5421a1bc0ee
+  checksum: d4ae55f4827622cf02389344ea154fbae6e0da26165e9c8644ba4b54c50fb2bf930856b080f5fc5c57af46809909b19903f414f3df071d75113e54c9dc6d2ed0
   languageName: node
   linkType: hard
 
@@ -2660,27 +2660,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-navigation/native@npm:6.0.12":
-  version: 6.0.12
-  resolution: "@react-navigation/native@npm:6.0.12"
+"@react-navigation/native@npm:6.1.6":
+  version: 6.1.6
+  resolution: "@react-navigation/native@npm:6.1.6"
   dependencies:
-    "@react-navigation/core": ^6.3.0
+    "@react-navigation/core": ^6.4.8
     escape-string-regexp: ^4.0.0
     fast-deep-equal: ^3.1.3
     nanoid: ^3.1.23
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 7b5a83fb3167b74a0e9956297910abe793cfb965c0db411473ffc73ff7e5f3bd5b554a883fff17c9ad9ee7566fa20458428e17f34e46a6c8ee02fde16e142c19
+  checksum: 7d54fe80a39d163819fbf646d2c9c907f4ac967446527d81debf450aebeabaaad2428d7004c725015ed535c57cc99f2f8a1ca96b383c87bdcaaff9fcb567549a
   languageName: node
   linkType: hard
 
-"@react-navigation/routers@npm:^6.1.2":
-  version: 6.1.2
-  resolution: "@react-navigation/routers@npm:6.1.2"
+"@react-navigation/routers@npm:^6.1.8":
+  version: 6.1.8
+  resolution: "@react-navigation/routers@npm:6.1.8"
   dependencies:
     nanoid: ^3.1.23
-  checksum: 5512a93733b040a988b741f56dc859f1cb1b78dc429e09652d42f378b2fbfc8ccc37d8dbdf470e479a2427ab72a1fb579678778eb025d5d49c6f5df7a6dfb7c4
+  checksum: f703ab9015e514e218a71a5cded79b1f2d2b7bb3d508e252aaa4b75cc1537b539177b1a66b4278322ce866320535fc1ebda7ea7f2f740abe6eac31f3b40e2c70
   languageName: node
   linkType: hard
 
@@ -8268,6 +8268,13 @@ __metadata:
   version: 0.2.0
   resolution: "decode-uri-component@npm:0.2.0"
   checksum: f3749344ab9305ffcfe4bfe300e2dbb61fc6359e2b736812100a3b1b6db0a5668cba31a05e4b45d4d63dbf1a18dfa354cd3ca5bb3ededddabb8cd293f4404f94
+  languageName: node
+  linkType: hard
+
+"decode-uri-component@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "decode-uri-component@npm:0.2.2"
+  checksum: 95476a7d28f267292ce745eac3524a9079058bbb35767b76e3ee87d42e34cd0275d2eb19d9d08c3e167f97556e8a2872747f5e65cbebcac8b0c98d83e285f139
   languageName: node
   linkType: hard
 
@@ -14666,7 +14673,7 @@ fsevents@^1.2.7:
     "@react-native-community/datetimepicker": 6.3.2
     "@react-native-community/eslint-config": 3.1.0
     "@react-native-community/slider": 4.3.1
-    "@react-navigation/native": 6.0.12
+    "@react-navigation/native": 6.1.6
     "@react-navigation/native-stack": 6.8.0
     "@storybook/addon-actions": 6.5.10
     "@storybook/addon-controls": 6.5.10
@@ -16255,15 +16262,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"query-string@npm:^7.0.0":
-  version: 7.0.1
-  resolution: "query-string@npm:7.0.1"
+"query-string@npm:^7.1.3":
+  version: 7.1.3
+  resolution: "query-string@npm:7.1.3"
   dependencies:
-    decode-uri-component: ^0.2.0
+    decode-uri-component: ^0.2.2
     filter-obj: ^1.1.0
     split-on-first: ^1.0.0
     strict-uri-encode: ^2.0.0
-  checksum: 2eb990c0eaa80998d074aac2ad5bcc7f21fa2e53a7d129d19883abe724a2eedb987ca81b731755307431914b0f958767bfe7c5f7433d0974a1650b5d313e5618
+  checksum: 91af02dcd9cc9227a052841d5c2eecb80a0d6489d05625df506a097ef1c59037cfb5e907f39b84643cbfd535c955abec3e553d0130a7b510120c37d06e0f4346
   languageName: node
   linkType: hard
 
@@ -19589,7 +19596,7 @@ resolve@^2.0.0-next.3:
 
 "typescript@patch:typescript@4.8.2#~builtin<compat/typescript>":
   version: 4.8.2
-  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
