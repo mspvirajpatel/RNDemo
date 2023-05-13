@@ -2525,12 +2525,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/datetimepicker@npm:6.3.2":
-  version: 6.3.2
-  resolution: "@react-native-community/datetimepicker@npm:6.3.2"
+"@react-native-community/datetimepicker@npm:6.7.5":
+  version: 6.7.5
+  resolution: "@react-native-community/datetimepicker@npm:6.7.5"
   dependencies:
     invariant: ^2.2.4
-  checksum: 7234515d21749338d4a307bfe1c9e9a41dc3a93f10e8f69af48bc21cb4b91ae5d7b307552ea59c518238a2a036d4751c3aead8a3ab606d086b2d7736a3ab2c83
+  checksum: b7670fb23a5e0306ef08fb1434048b445782a568990b83360924b9c964c3bc29fbeed7d45710c0348e3d596354d19d3d2679c36703bfa127f560d8f530af57ba
   languageName: node
   linkType: hard
 
@@ -14663,7 +14663,7 @@ fsevents@^1.2.7:
     "@react-native-async-storage/async-storage": 1.17.10
     "@react-native-community/checkbox": 0.5.12
     "@react-native-community/cli": 9.0.1
-    "@react-native-community/datetimepicker": 6.3.2
+    "@react-native-community/datetimepicker": 6.7.5
     "@react-native-community/eslint-config": 3.1.0
     "@react-native-community/slider": 4.3.1
     "@react-navigation/native": 6.0.12
@@ -19589,7 +19589,7 @@ resolve@^2.0.0-next.3:
 
 "typescript@patch:typescript@4.8.2#~builtin<compat/typescript>":
   version: 4.8.2
-  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
