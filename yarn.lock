@@ -4453,13 +4453,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/invariant@npm:^2.2.35":
-  version: 2.2.35
-  resolution: "@types/invariant@npm:2.2.35"
-  checksum: af1b624057c89789ed0917838fea3d42bb0c101cc22b829a24d8777c678be3bc79d6ae05992a13bdf607b94731262467a2e62a809602ea1f7eea5e8c2242660d
-  languageName: node
-  linkType: hard
-
 "@types/is-function@npm:^1.0.0":
   version: 1.0.0
   resolution: "@types/is-function@npm:1.0.0"
@@ -14728,7 +14721,7 @@ fsevents@^1.2.7:
     react-native-codegen: 0.71.0
     react-native-gesture-handler: 2.6.0
     react-native-gradle-plugin: 0.70.2
-    react-native-reanimated: 3.0.0-rc.2
+    react-native-reanimated: 3.0.0
     react-native-rename: 2.9.0
     react-test-renderer: 18.2.0
     reactotron-react-native: 5.0.2
@@ -16726,13 +16719,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-reanimated@npm:3.0.0-rc.2":
-  version: 3.0.0-rc.2
-  resolution: "react-native-reanimated@npm:3.0.0-rc.2"
+"react-native-reanimated@npm:3.0.0":
+  version: 3.0.0
+  resolution: "react-native-reanimated@npm:3.0.0"
   dependencies:
     "@babel/plugin-transform-object-assign": ^7.16.7
     "@babel/preset-typescript": ^7.16.7
-    "@types/invariant": ^2.2.35
+    convert-source-map: ^1.7.0
     invariant: ^2.2.4
     lodash.isequal: ^4.5.0
     setimmediate: ^1.0.5
@@ -16741,7 +16734,7 @@ fsevents@^1.2.7:
     "@babel/core": ^7.0.0-0
     react: "*"
     react-native: "*"
-  checksum: 2dcce4e267f52760566e059327e8121e41da536aa6a1563acecba00b06c62c9b7a4d88fb74aa98408606cc6b82375b873833bbb7f29cad8bae98cec941d99618
+  checksum: 86b3cb4133f0dc554f7d45188890c27d602f0122c12c4edf01252e7ec46840d69cbda16a308e8da27c09d152a57f3a6e860b96b44a1810e0dabda5a7f93f42e9
   languageName: node
   linkType: hard
 
@@ -19589,7 +19582,7 @@ resolve@^2.0.0-next.3:
 
 "typescript@patch:typescript@4.8.2#~builtin<compat/typescript>":
   version: 4.8.2
-  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
