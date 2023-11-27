@@ -5985,6 +5985,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ast-types@npm:0.15.2":
+  version: 0.15.2
+  resolution: "ast-types@npm:0.15.2"
+  dependencies:
+    tslib: ^2.0.1
+  checksum: 24f0d86bf9e4c8dae16fa24b13c1776f2c2677040bcfbd4eb4f27911db49020be4876885e45e6cfcc548ed4dfea3a0742d77e3346b84fae47379cb0b89e9daa0
+  languageName: node
+  linkType: hard
+
 "astral-regex@npm:^1.0.0":
   version: 1.0.0
   resolution: "astral-regex@npm:1.0.0"
@@ -10437,6 +10446,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"flow-parser@npm:^0.185.0":
+  version: 0.185.2
+  resolution: "flow-parser@npm:0.185.2"
+  checksum: 6c8cee6ef2a2f0e5a5dd29698dfc493c8148263ce52b061804c812877ef68b1d0747d8f17256f2ed36e105550eab27a37377be32f1fed4b72c434dda6e0c053c
+  languageName: node
+  linkType: hard
+
 "flush-write-stream@npm:^1.0.0":
   version: 1.1.1
   resolution: "flush-write-stream@npm:1.1.1"
@@ -12992,6 +13008,37 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"jscodeshift@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "jscodeshift@npm:0.14.0"
+  dependencies:
+    "@babel/core": ^7.13.16
+    "@babel/parser": ^7.13.16
+    "@babel/plugin-proposal-class-properties": ^7.13.0
+    "@babel/plugin-proposal-nullish-coalescing-operator": ^7.13.8
+    "@babel/plugin-proposal-optional-chaining": ^7.13.12
+    "@babel/plugin-transform-modules-commonjs": ^7.13.8
+    "@babel/preset-flow": ^7.13.13
+    "@babel/preset-typescript": ^7.13.0
+    "@babel/register": ^7.13.16
+    babel-core: ^7.0.0-bridge.0
+    chalk: ^4.1.2
+    flow-parser: 0.*
+    graceful-fs: ^4.2.4
+    micromatch: ^4.0.4
+    neo-async: ^2.5.0
+    node-dir: ^0.1.17
+    recast: ^0.21.0
+    temp: ^0.8.4
+    write-file-atomic: ^2.3.0
+  peerDependencies:
+    "@babel/preset-env": ^7.1.6
+  bin:
+    jscodeshift: bin/jscodeshift.js
+  checksum: 54ea6d639455883336f80b38a70648821c88b7942315dc0fbab01bc34a9ad0f0f78e3bd69304b5ab167e4262d6ed7e6284c6d32525ab01c89d9118df89b3e2a0
+  languageName: node
+  linkType: hard
+
 "jsesc@npm:^2.5.1":
   version: 2.5.2
   resolution: "jsesc@npm:2.5.2"
@@ -14725,7 +14772,7 @@ fsevents@^1.2.7:
     react-dom: 18.2.0
     react-native: 0.70.0
     react-native-clean-project: 4.0.1
-    react-native-codegen: 0.71.0
+    react-native-codegen: 0.71.6
     react-native-gesture-handler: 2.6.0
     react-native-gradle-plugin: 0.70.2
     react-native-reanimated: 3.0.0-rc.2
@@ -16606,15 +16653,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-native-codegen@npm:0.71.0":
-  version: 0.71.0
-  resolution: "react-native-codegen@npm:0.71.0"
+"react-native-codegen@npm:0.71.6":
+  version: 0.71.6
+  resolution: "react-native-codegen@npm:0.71.6"
   dependencies:
     "@babel/parser": ^7.14.0
-    flow-parser: ^0.121.0
-    jscodeshift: ^0.13.1
+    flow-parser: ^0.185.0
+    jscodeshift: ^0.14.0
     nullthrows: ^1.1.1
-  checksum: 2d71bdc9fa3acdf5cb9de27ef976e12cc12d96935e8025765f416b07b04d08755405413b8dba17a3f008d9a702fde529075bf71234cbca9802e7f3609422aff8
+  checksum: 3624f18f4a3d12d3ab304b2c5beaeb59bdf7eb2ce74a44a660cb028846a0993437ab733fe2423f9455d96838628853c8e26cea004c1720b358ee5aed2d46278b
   languageName: node
   linkType: hard
 
@@ -17156,6 +17203,18 @@ fsevents@^1.2.7:
     source-map: ~0.6.1
     tslib: ^2.0.1
   checksum: 14c35115cd9965950724cb2968f069a247fa79ce890643ab6dc3795c705b363f7b92a45238e9f765387c306763be9955f72047bb9d15b5d60b0a55f9e7912d5a
+  languageName: node
+  linkType: hard
+
+"recast@npm:^0.21.0":
+  version: 0.21.5
+  resolution: "recast@npm:0.21.5"
+  dependencies:
+    ast-types: 0.15.2
+    esprima: ~4.0.0
+    source-map: ~0.6.1
+    tslib: ^2.0.1
+  checksum: 03cc7f57562238ba258d468be67bf7446ce7a707bc87a087891dad15afead46c36e9aaeedf2130e2ab5a465244a9c62bfd4127849761cf8f4085abe2f3e5f485
   languageName: node
   linkType: hard
 
@@ -19589,7 +19648,7 @@ resolve@^2.0.0-next.3:
 
 "typescript@patch:typescript@4.8.2#~builtin<compat/typescript>":
   version: 4.8.2
-  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=a1c5e5"
+  resolution: "typescript@patch:typescript@npm%3A4.8.2#~builtin<compat/typescript>::version=4.8.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
